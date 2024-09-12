@@ -1,0 +1,28 @@
+{
+  "name": "islandquest",
+  "version": "1.0.0",
+  "description": "A Discord bot for the Island Quest game with dynamic map generation, resource management, and weather effects.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "initialize-resources": "node Utils/initializeResources.js",
+    "weather-updater": "node Utils/weatherUpdater.js",
+    "resource-regenerator": "node Utils/resourceRegenerator.js"
+  },
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1",
+    "gen-biome": "^3.0.3",
+    "js-priority-queue": "^0.1.5",
+    "mongoose": "^7.5.1",
+    "node-cache": "^5.1.2",
+    "perlin-noise": "^0.0.1",
+    "pixi.js": "^8.3.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
